@@ -150,5 +150,27 @@ nav .nav-right .search-box input {
   position: sticky;
   top: 70px;
   align-self: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  color: #626262;
+}
+
+.container .sidebar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.container .sidebar-title h4 {
+  font-weight: 600;
+  font-style: 16px;
+}
+
+.container .sidebar-title a {
+  text-decoration: none;
+  color: #1876f2;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
