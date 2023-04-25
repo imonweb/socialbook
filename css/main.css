@@ -92,12 +92,53 @@ nav .nav-right .search-box input {
 }
 
 .container .left-sidebar {
-  background-color: #cbdffa;
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  height: 100vh;
+}
+
+.container .left-sidebar .imp-links {
+  border-bottom: 1px solid #ccc;
+}
+
+.container .left-sidebar .imp-links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #626262;
+  width: fit-content;
+}
+
+.container .left-sidebar .imp-links a:last-child {
+  color: #1876f2;
+}
+
+.container .left-sidebar .imp-links a img {
+  width: 25px;
+  margin-right: 15px;
+}
+
+.container .left-sidebar .shortcut-links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #626262;
+  width: fit-content;
+}
+
+.container .left-sidebar .shortcut-links a img {
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.container .left-sidebar .shortcut-links p {
+  margin: 25px 0;
+  color: #626262;
+  font-weight: 500;
 }
 
 .container .main-content {
@@ -105,11 +146,9 @@ nav .nav-right .search-box input {
 }
 
 .container .right-sidebar {
-  background-color: #cbdffa;
   flex-basis: 25%;
   position: sticky;
   top: 70px;
   align-self: flex-start;
-  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
