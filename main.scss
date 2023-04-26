@@ -165,24 +165,25 @@ nav {
     padding: 20px;
     border-radius: 4px;
     color: #626262;
+    
+    .sidebar-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+
+      h4 {
+        font-weight: 600;
+        font-style: 16px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #1876f2;
+        font-size: 12px;
+      }
+    } // sidebar-title
+
   } // right-sidebar
-
-  .sidebar-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 18px;
-
-    h4 {
-      font-weight: 600;
-      font-style: 16px;
-    }
-
-    a {
-      text-decoration: none;
-      color: #1876f2;
-      font-size: 12px;
-    }
-  } // sidebar-title
 } // container
 

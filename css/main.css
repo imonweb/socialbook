@@ -156,19 +156,19 @@ nav .nav-right .search-box input {
   color: #626262;
 }
 
-.container .sidebar-title {
+.container .right-sidebar .sidebar-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 18px;
 }
 
-.container .sidebar-title h4 {
+.container .right-sidebar .sidebar-title h4 {
   font-weight: 600;
   font-style: 16px;
 }
 
-.container .sidebar-title a {
+.container .right-sidebar .sidebar-title a {
   text-decoration: none;
   color: #1876f2;
   font-size: 12px;
