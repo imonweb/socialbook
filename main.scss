@@ -224,6 +224,48 @@ nav {
       }
     } // event
 
+    .sidebar-ads {
+      width: 100%;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+
+    .online-sidebar {
+      // display: flex;
+      // align-items: center;
+      // margin-bottom: 20px;
+    }
+
+    .online-list {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      .online {
+      position: relative;
+    }
+      .online::after {
+        content: '';
+        width: 7px;
+        height: 7px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #41db51;
+        position: absolute;
+        top: unset;
+        bottom: 5px;
+        right: 0;
+      }
+      .online {
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 15px;
+        img {
+          width: 40px;
+          border-radius: 50%;
+        }
+      }
+    }
+
   } // right-sidebar
 } // container
 
