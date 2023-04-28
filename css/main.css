@@ -146,6 +146,213 @@ nav .nav-right .search-box input {
   flex-basis: 47%;
 }
 
+.container .main-content .story-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container .main-content .story-gallery .story {
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-1.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container .main-content .story-gallery .story img {
+  position: absolute;
+  width: 45px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  border: 5px solid #1876f2;
+}
+
+.container .main-content .story-gallery .story p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.container .main-content .story-gallery .story1 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-1.png");
+}
+
+.container .main-content .story-gallery .story1 img {
+  top: unset;
+  left: 50%;
+  bottom: 40px;
+  transform: translateX(-50%);
+  border: 0;
+  width: 35px;
+}
+
+.container .main-content .story-gallery .story2 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-2.png");
+}
+
+.container .main-content .story-gallery .story3 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-3.png");
+}
+
+.container .main-content .story-gallery .story4 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-4.png");
+}
+
+.container .main-content .story-gallery .story5 {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url("/images/status-5.png");
+}
+
+.container .main-content .write-post-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+}
+
+.container .main-content .write-post-container .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.container .main-content .write-post-container .user-profile img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.container .main-content .write-post-container .user-profile p {
+  margin-bottom: -2px;
+  font-weight: 500;
+  color: #626262;
+}
+
+.container .main-content .write-post-container .user-profile small {
+  font-size: 12px;
+}
+
+.container .main-content .write-post-container .post-input-container {
+  padding-left: 55px;
+  padding-top: 20px;
+}
+
+.container .main-content .write-post-container .post-input-container textarea {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  resize: none;
+}
+
+.container .main-content .write-post-container .add-post-links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.container .main-content .write-post-container .add-post-links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-right: 30px;
+  font-size: 13px;
+}
+
+.container .main-content .write-post-container .add-post-links a img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.container .main-content .post-container {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin: 20px 0;
+}
+
+.container .main-content .post-container .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.container .main-content .post-container .user-profile img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.container .main-content .post-container .user-profile p {
+  margin-bottom: -2px;
+  font-weight: 500;
+  color: #626262;
+}
+
+.container .main-content .post-container .user-profile span {
+  font-size: 13px;
+  color: #626262;
+}
+
+.container .main-content .post-container .post-text {
+  color: #9a9a9a;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.container .main-content .post-container .post-text span {
+  color: #626262;
+  font-weight: 500;
+}
+
+.container .main-content .post-container .post-text a {
+  color: #1876f2;
+  text-decoration: none;
+}
+
+.container .main-content .post-container .post-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.container .main-content .post-container .post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .main-content .post-container .post-row .activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.container .main-content .post-container .post-row .activity-icons div img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.container .main-content .post-container .post-row .post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.container .main-content .post-container .post-row .post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 .container .right-sidebar {
   flex-basis: 25%;
   position: sticky;

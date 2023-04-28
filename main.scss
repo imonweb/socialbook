@@ -154,6 +154,216 @@ nav {
 
   .main-content {
     flex-basis: 47%;
+
+    .story-gallery {
+      display:flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .story {
+        flex-basis: 18%;
+        padding-top: 32%;
+        position: relative;
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-1.png');
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        cursor: pointer;
+
+        img {
+          position: absolute;
+          width: 45px;
+          border-radius: 50%;
+          top: 10px;
+          left: 10px;
+          border: 5px solid #1876f2;
+        }
+
+        p {
+          position: absolute;
+          bottom: 10px;
+          width: 100%;
+          text-align: center;
+          color: #fff;
+          font-size: 14px;
+        }
+
+       
+      } // story
+
+      .story1 {
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-1.png');
+        img {
+          top: unset;
+          left: 50%;
+          bottom: 40px;
+          transform: translateX(-50%);
+          border: 0;
+          width: 35px;
+        }
+      }
+
+      .story2 {
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-2.png');
+      }
+
+      .story3 {
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-3.png');
+      }
+
+      .story4 {
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-4.png');
+      }
+
+      .story5 {
+        background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('/images/status-5.png');
+      }
+    }
+
+    .write-post-container {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 20px;
+      color: #626262;
+
+      .user-profile {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 45px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+
+        p {
+          margin-bottom: -2px;
+          font-weight: 500;
+          color: #626262;
+        }
+
+        small {
+          font-size: 12px;
+        }
+      } // user-profile
+
+      .post-input-container {
+        padding-left: 55px;
+        padding-top: 20px;
+
+        textarea {
+          width: 100%;
+          border: 0;
+          outline: 0;
+          border-bottom: 1px solid #ccc;
+          background: transparent;
+          resize: none;
+        }
+      } // post-input-container
+
+      .add-post-links {
+        display: flex;
+        margin-top: 10px;
+
+        a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          color: #626262;
+          margin-right: 30px;
+          font-size: 13px;
+
+          img {
+            width: 20px;
+            margin-right: 10px;
+          }
+        }
+      }
+    } // write-post-container
+
+    .post-container {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 6px;
+      padding: 20px;
+      color: #626262;
+      margin: 20px 0;
+
+      .user-profile {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 45px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+
+        p {
+          margin-bottom: -2px;
+          font-weight: 500;
+          color: #626262;
+        }
+
+        span {
+          font-size: 13px;
+          color: #626262;
+        }
+      } // user-profile
+
+      .post-text {
+        color: #9a9a9a;
+        margin: 15px 0;
+        font-size: 15px;
+
+        span {
+          color: #626262;
+          font-weight: 500;
+        }
+
+        a {
+          color: #1876f2;
+          text-decoration: none;
+        }
+      }
+
+      .post-img {
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 5px;
+      }
+
+      .post-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .activity-icons {
+          div {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 30px;
+
+            img {
+              width: 18px;
+              margin-right: 10px;
+            }
+          }
+        } // activity-icons
+
+        .post-profile-icon {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 20px;
+            border-radius: 50%;
+            margin-right: 5px;
+          }
+        }
+      } // post-row
+    } // post-container
      
   } // main-content
 
@@ -265,7 +475,7 @@ nav {
         }
       }
     }
-
+ 
   } // right-sidebar
 } // container
 
