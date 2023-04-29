@@ -23,13 +23,14 @@ nav .settings-menu {
   position: absolute;
   width: 90%;
   max-width: 350px;
-  height: 500px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
   overflow: hidden;
   top: 110%;
   right: 5%;
+  max-height: 0;
+  transition: max-height 0.3s;
 }
 
 nav .settings-menu .user-profile {
@@ -68,6 +69,31 @@ nav .settings-menu hr {
 
 nav .settings-menu .settings-menu-inner {
   padding: 20px;
+}
+
+nav .settings-menu .settings-menu-inner .settings-links {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+nav .settings-menu .settings-menu-inner .settings-links .settings-icon {
+  width: 38px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+nav .settings-menu .settings-menu-inner .settings-links a {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #626262;
+}
+
+nav .settings-menu-height {
+  max-height: 450px;
 }
 
 nav .nav-left, nav .nav-right {

@@ -22,13 +22,17 @@ nav {
     position: absolute;
     width: 90%;
     max-width: 350px;
-    height: 500px;
+    // height: 500px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
     border-radius: 4px;
     overflow: hidden;
     top: 110%;
     right: 5%;
+
+    // to hide menu
+    max-height: 0;
+    transition: max-height 0.3s;
 
     .user-profile {
         display: flex;
@@ -66,7 +70,33 @@ nav {
 
       .settings-menu-inner {
         padding: 20px;
+
+        .settings-links {
+          display: flex;
+          align-items: center;
+          margin: 15px 0px;
+
+          .settings-icon {
+            width: 38px;
+            margin-right: 10px;
+            border-radius: 50%;
+          }
+
+          a {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: #626262;
+          }
+        }
       }
+  }
+
+  // toggle the menu
+  .settings-menu-height {
+    max-height: 450px;
   }
 
   .nav-left, .nav-right {
