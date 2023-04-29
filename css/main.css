@@ -19,6 +19,57 @@ nav {
   z-index: 100;
 }
 
+nav .settings-menu {
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  top: 110%;
+  right: 5%;
+}
+
+nav .settings-menu .user-profile {
+  display: flex;
+  align-items: center;
+}
+
+nav .settings-menu .user-profile img {
+  width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+nav .settings-menu .user-profile p {
+  margin-bottom: -2px;
+  font-weight: 500;
+  color: #626262;
+}
+
+nav .settings-menu .user-profile small {
+  font-size: 12px;
+}
+
+nav .settings-menu .user-profile a {
+  font-size: 12px;
+  color: #1876f2;
+  text-decoration: none;
+}
+
+nav .settings-menu hr {
+  border: 0;
+  height: 1px;
+  background-color: #f1f1f1;
+  margin: 15px 0;
+}
+
+nav .settings-menu .settings-menu-inner {
+  padding: 20px;
+}
+
 nav .nav-left, nav .nav-right {
   display: flex;
   align-items: center;
@@ -353,6 +404,21 @@ nav .nav-right .search-box input {
   margin-right: 5px;
 }
 
+.container .main-content .post-container .post-row a {
+  color: #9a9a9a;
+}
+
+.container .main-content .load-more-btn {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #9a9a9a;
+  color: #626262;
+  background: transparent;
+  border-radius: 4px;
+}
+
 .container .right-sidebar {
   flex-basis: 25%;
   position: sticky;
@@ -459,5 +525,12 @@ nav .nav-right .search-box input {
 .container .right-sidebar .online-list .online img {
   width: 40px;
   border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+  color: #9a9a9a;
+  padding: 10px 0px 20px;
+  font-size: 13px;
 }
 /*# sourceMappingURL=main.css.map */
