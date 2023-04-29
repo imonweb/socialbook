@@ -36,7 +36,7 @@ nav .settings-menu {
   position: absolute;
   width: 90%;
   max-width: 350px;
-  background-color: #fff;
+  background-color: var(--bg-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
   overflow: hidden;
@@ -128,7 +128,7 @@ nav .settings-menu #dark-btn span {
 
 nav .settings-menu #dark-btn.dark-btn-on {
   padding-left: 23px;
-  background: #000;
+  background: #444;
 }
 
 nav .settings-menu-height {
